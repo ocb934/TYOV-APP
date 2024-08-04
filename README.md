@@ -46,6 +46,8 @@ Download the files and extract. Run TYOV-APP.exe
 ## Known Issues
 Sometimes clicking the "Click here for first prompt" button on the main TYOV-APP window once does nothing. All you have to do is click it again and the prompt will pop up. Not sure why it does it, but the program works otherwise!
 
+Right now, the program is getting flagged as malware by antiviruses.  Currently figuring out what is causing that. It is not dangerous but I do not blame anyone if you don’t want to take any chances.
+
 ## Credits
   Thanks to [mwr247](https://github.com/mwr247) for helping to make this possible.
   Thanks to [Tim Hutchings](https://thousandyearoldvampire.com/) for giving me permission to post this!
