@@ -40,13 +40,14 @@ This program starts you at Prompt 1, Entry 1. When you click "Next Prompt," it a
 
 -Option to roll two d10s instead of one for multiplayer games or for quick games
 
-## How to Run TYOV-APP
-Download the files and extract. Run TYOV-APP.exe
-
 ## Known Issues
-Sometimes clicking the "Click here for first prompt" button on the main TYOV-APP window once does nothing. All you have to do is click it again and the prompt will pop up. Not sure why it does it, but the program works otherwise!
+Clicking the "Click here for first prompt" button on the main TYOV-APP window once does nothing if you close the prompts window. All you have to do is click it again and a new prompt will pop up. This is normal.
 
-Right now, the program is getting flagged as malware by antiviruses.  Currently figuring out what is causing that. It is not dangerous but I do not blame anyone if you don’t want to take any chances.
+The program is getting flagged as malware by antiviruses due to being compiled with PyInstaller into one file. I have tried using many other compilers (Nuitka, cx_Freeze, Briefcase, etc) but have come across issues with not being able to get the data files in the executable. I'm open to trying other compiliers, but I think I will have to settle with a false positive program.
+
+## How to Run TYOV-APP
+Download the files and extract.
+Tell your antivirus that the program is actually safe and then run TYOV-APP.exe
 
 ## Credits
   Thanks to [mwr247](https://github.com/mwr247) for helping to make this possible.
